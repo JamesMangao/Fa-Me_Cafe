@@ -13,4 +13,18 @@
     --color-cafe-bg-alt: #110900;
     --color-cafe-footer: #080500;
     --color-cafe-nav: #1a0f00;
+    --color-cafe-accent: #f59e0b;
 }
+
+:focus-visible {
+    outline: 2px solid var(--color-cafe-accent);
+    outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .animate-pulse, .animate-bounce, .transition-all {
+        animation: none !important;
+        transition: none !important;
+    }
+}
+

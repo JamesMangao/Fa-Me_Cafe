@@ -13,7 +13,7 @@ $features = [
     <div class="max-w-6xl mx-auto">
         <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
             <div>
-                <span class="text-amber-500 text-sm font-semibold tracking-widest uppercase">Our Story</span>
+                <span class="text-amber-500 text-sm font-semibold tracking-widest uppercase">OUR STORY</span>
                 <h2 class="text-white text-4xl md:text-5xl font-bold mt-3 mb-6 leading-tight">
                     Where Coffee Meets<br /><span class="text-amber-400">Community</span>
                 </h2>
@@ -30,7 +30,7 @@ $features = [
                     </div>
                     <div>
                         <div class="text-amber-400 text-3xl font-bold">&#8369;500</div>
-                        <div class="text-white/50 text-sm mt-1">Max per Person</div>
+                        <div class="text-white/50 text-sm mt-1">Budget-Friendly</div>
                     </div>
                     <div>
                         <div class="text-amber-400 text-3xl font-bold">2 AM</div>
@@ -42,14 +42,16 @@ $features = [
             <div class="relative">
                 <img
                     src="{{ asset('images/fame-cafe-interior.png') }}"
-                    alt="Fa-Me Café interior"
+                    alt="Interior of Fa-Me Café Pacita featuring cozy warm lighting and aesthetic seating area"
                     class="rounded-2xl w-full h-80 object-cover"
+                    loading="lazy"
                 />
                 <div class="absolute -bottom-6 -left-6 w-40 h-40 rounded-2xl overflow-hidden border-4 border-[#0d0700]">
                     <img
                         src="{{ asset('images/fame-cafe-coffee.png') }}"
-                        alt="Coffee"
+                        alt="A freshly brewed signature latte at Fa-Me Café"
                         class="w-full h-full object-cover"
+                        loading="lazy"
                     />
                 </div>
                 <div class="absolute -top-4 -right-4 bg-amber-500 text-white rounded-2xl px-4 py-3 text-sm font-semibold shadow-xl">

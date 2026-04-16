@@ -28,7 +28,7 @@
             </div>
 
             <div>
-                <h4 class="text-white font-semibold mb-4 text-sm tracking-wider uppercase">Quick Links</h4>
+                <h4 class="text-white font-semibold mb-4 text-sm tracking-widest uppercase">QUICK LINKS</h4>
                 <ul class="space-y-2.5">
                     @foreach(['About','Menu','Reviews','Location'] as $link)
                     <li>
@@ -41,7 +41,7 @@
             </div>
 
             <div>
-                <h4 class="text-white font-semibold mb-4 text-sm tracking-wider uppercase">Contact</h4>
+                <h4 class="text-white font-semibold mb-4 text-sm tracking-widest uppercase">CONTACT</h4>
                 <div class="space-y-3">
                     <div class="flex items-start gap-2.5 text-sm text-white/40">
                         <svg class="w-4 h-4 text-amber-400 shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">

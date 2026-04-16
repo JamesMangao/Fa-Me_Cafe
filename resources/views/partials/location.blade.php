@@ -12,7 +12,7 @@ $info = [
 <section id="location" class="bg-[#110900] py-24 px-6">
     <div class="max-w-6xl mx-auto">
         <div class="text-center mb-14">
-            <span class="text-amber-500 text-sm font-semibold tracking-widest uppercase">Find Us</span>
+            <span class="text-amber-500 text-sm font-semibold tracking-widest uppercase">FIND US</span>
             <h2 class="text-white text-4xl md:text-5xl font-bold mt-3 mb-4">Visit Fa-Me Café</h2>
             <p class="text-white/50 max-w-md mx-auto">Come hang out, stay late, and experience the warmth of Fa-Me Café in Pacita.</p>
         </div>

@@ -49,7 +49,7 @@
         </div>
     </div>
 
-    <a href="#about" class="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/40 hover:text-amber-400 transition-colors animate-bounce">
+    <a href="#about" aria-label="Scroll to About section" class="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/40 hover:text-amber-400 transition-colors animate-bounce">
         <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <polyline points="6 9 12 15 18 9"/>
         </svg>

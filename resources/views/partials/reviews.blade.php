@@ -1,7 +1,7 @@
 <section id="reviews" class="bg-[#0d0700] py-24 px-6">
     <div class="max-w-6xl mx-auto">
         <div class="text-center mb-14">
-            <span class="text-amber-500 text-sm font-semibold tracking-widest uppercase">What People Say</span>
+            <span class="text-amber-500 text-sm font-semibold tracking-widest uppercase">WHAT PEOPLE SAY</span>
             <h2 class="text-white text-4xl md:text-5xl font-bold mt-3 mb-4">Guest Reviews</h2>
             <div class="flex items-center justify-center gap-3 mt-4">
                 <div class="flex gap-1">
@@ -23,7 +23,7 @@
                     <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/>
                     <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/>
                 </svg>
-                <p class="text-white/70 text-sm leading-relaxed flex-1 mb-5">"{{ $review['text'] }}"</p>
+                <p class="text-white/80 text-sm leading-relaxed flex-1 mb-5">"{{ $review['text'] }}"</p>
                 <div class="border-t border-white/[0.08] pt-4">
                     <div class="flex items-center justify-between mb-2">
                         <div>
@@ -59,6 +59,7 @@
                     <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
                 </svg>
                 Leave a Review on Google
+                <x-icon name="external-link" class="w-3.5 h-3.5 inline-block ml-0.5" />
             </a>
         </div>
     </div>

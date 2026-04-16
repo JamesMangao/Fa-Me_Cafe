@@ -30,7 +30,7 @@
         </button>
     </div>
 
-    <div id="mobile-menu" class="hidden md:hidden bg-[#1a0f00]/98 px-6 pb-6 space-y-4">
+    <div id="mobile-menu" class="hidden md:hidden bg-[#1a0f00]/90 backdrop-blur-md px-6 pb-6 space-y-4">
         @foreach(['About','Menu','Reviews','Location'] as $link)
         <a href="#{{ strtolower($link) }}" class="mobile-nav-link block text-amber-100/80 hover:text-amber-300 text-sm font-medium tracking-wider uppercase py-2 border-b border-amber-900/30">
             {{ $link }}
