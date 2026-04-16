@@ -1,5 +1,5 @@
 <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
-    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('{{ asset('images/fame-cafe-interior.jpg') }}')"></div>
+    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.pexels.com/photos/1695052/pexels-photo-1695052.jpeg?auto=compress&cs=tinysrgb&w=1920')"></div>
     <div class="absolute inset-0 bg-gradient-to-b from-[#0d0700]/80 via-[#1a0f00]/70 to-[#0d0700]/90"></div>
 
     <div class="relative z-10 text-center px-6 max-w-4xl mx-auto">
@@ -17,11 +17,11 @@
             Your new favorite tambayan. Rich coffee, authentic Indonesian cuisine, and a cozy atmosphere — open late for those night owl cravings.
         </p>
 
-        <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <a href="#menu" class="bg-amber-500 hover:bg-amber-400 text-white font-semibold px-8 py-3.5 rounded-full transition-all hover:shadow-xl hover:shadow-amber-500/30 hover:-translate-y-0.5">
+        <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-12 px-4 sm:px-0">
+            <a href="#menu" class="bg-amber-500 hover:bg-amber-400 text-white font-semibold px-6 sm:px-8 py-3.5 rounded-full transition-all hover:shadow-xl hover:shadow-amber-500/30 hover:-translate-y-0.5 w-full sm:w-auto text-center">
                 Explore Our Menu
             </a>
-            <a href="#location" class="border border-white/30 hover:border-amber-400 text-white hover:text-amber-300 font-semibold px-8 py-3.5 rounded-full transition-all backdrop-blur-sm">
+            <a href="#location" class="border border-white/30 hover:border-amber-400 text-white hover:text-amber-300 font-semibold px-6 sm:px-8 py-3.5 rounded-full transition-all backdrop-blur-sm w-full sm:w-auto text-center">
                 Get Directions
             </a>
         </div>

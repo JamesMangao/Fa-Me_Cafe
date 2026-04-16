@@ -1,9 +1,7 @@
 <nav id="navbar" class="fixed top-0 w-full z-50 transition-all duration-300">
     <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#" class="flex items-center gap-2">
-            <svg class="text-amber-400 w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8zM6 1v3M10 1v3M14 1v3"/>
-            </svg>
+            <x-icon name="coffee" class="text-amber-400 w-6 h-6" />
             <span class="text-white font-bold text-xl tracking-wide">Fa-Me Café</span>
         </a>
 

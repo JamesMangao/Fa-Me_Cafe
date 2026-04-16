@@ -3,9 +3,7 @@
         <div class="grid md:grid-cols-3 gap-10 mb-12">
             <div>
                 <div class="flex items-center gap-2 mb-4">
-                    <svg class="text-amber-400 w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8zM6 1v3M10 1v3M14 1v3"/>
-                    </svg>
+                    <x-icon name="coffee" class="text-amber-400 w-5 h-5" />
                     <span class="text-white font-bold text-lg">Fa-Me Café</span>
                 </div>
                 <p class="text-white/40 text-sm leading-relaxed mb-5">

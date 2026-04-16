@@ -6,6 +6,17 @@
             <p class="text-white/50 max-w-lg mx-auto">Craft coffees, matcha creations, authentic Indonesian dishes, and more — all at honest prices.</p>
         </div>
 
+        <noscript>
+            <div class="bg-amber-500/20 border border-amber-500/50 text-amber-300 p-4 rounded-xl text-center mb-8 text-sm">
+                We safely use local JavaScript for the best menu experience, but you can still view our full menu below!
+            </div>
+            <style>
+                .hidden, [id^="panel-"] { display: block !important; }
+                .drink-panel, .food-panel { display: grid !important; margin-bottom: 2rem; }
+                .menu-main-tab, .drink-sub-tab, .food-sub-tab { display: none !important; }
+            </style>
+        </noscript>
+
         <div class="flex justify-center mb-8">
             <div class="flex bg-white/5 border border-white/10 rounded-full p-1 gap-1">
                 <button data-tab="drinks" class="menu-main-tab flex items-center gap-2 px-6 py-2.5 rounded-full text-sm font-semibold transition-all bg-amber-500 text-white shadow-lg shadow-amber-500/30">

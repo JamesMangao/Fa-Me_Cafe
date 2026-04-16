@@ -1,19 +1,11 @@
 @php
 $hours = [
-    ['day' => 'Monday – Thursday', 'time' => '10:00 AM – 2:00 AM'],
-    ['day' => 'Friday',            'time' => '10:00 AM – 2:00 AM'],
-    ['day' => 'Saturday',          'time' => '10:00 AM – 2:00 AM'],
-    ['day' => 'Sunday',            'time' => '10:00 AM – 2:00 AM'],
+    ['day' => 'Daily', 'time' => '10:00 AM – 2:00 AM'],
 ];
 $info = [
     ['icon' => 'car',         'label' => 'Parking', 'value' => 'Free parking lot & street parking'],
     ['icon' => 'credit-card', 'label' => 'Payment', 'value' => 'Cash, QR / GCash / PayMaya'],
     ['icon' => 'utensils',    'label' => 'Service',  'value' => 'Dine-in & Takeout available'],
-];
-$icons = [
-    'car'         => '<path stroke-linecap="round" stroke-linejoin="round" d="M5 17H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v5a2 2 0 0 1-2 2h-2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/>',
-    'credit-card' => '<rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/>',
-    'utensils'    => '<path stroke-linecap="round" stroke-linejoin="round" d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2M7 2v20M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3zm0 0v7"/>',
 ];
 @endphp
 
@@ -82,9 +74,7 @@ $icons = [
                     @foreach($info as $item)
                     <div class="bg-white/5 border border-white/[0.08] rounded-2xl p-5 flex items-center gap-4">
                         <div class="w-10 h-10 rounded-xl bg-amber-500/10 flex items-center justify-center shrink-0">
-                            <svg class="w-5 h-5 text-amber-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                {!! $icons[$item['icon']] !!}
-                            </svg>
+                            <x-icon :name="$item['icon']" class="w-5 h-5 text-amber-400" />
                         </div>
                         <div>
                             <p class="text-white/40 text-xs uppercase tracking-wider">{{ $item['label'] }}</p>
