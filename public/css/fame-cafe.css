@@ -1,0 +1,39 @@
+/* Fa-Me Café – supplemental styles for Laravel Blade project */
+/* Tailwind CSS is loaded via CDN in the layout. This file handles custom overrides. */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar scroll state – toggled by JS */
+#navbar.scrolled {
+    background-color: rgba(26, 15, 0, 0.95);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+}
+
+/* Ensure full-height sections */
+.min-h-screen {
+    min-height: 100vh;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #0d0700;
+}
+::-webkit-scrollbar-thumb {
+    background: #b45309;
+    border-radius: 3px;
+}
+
+/* Grayscale map on hover lifts to color */
+iframe.grayscale {
+    filter: grayscale(100%) brightness(0.7);
+    transition: filter 0.3s ease;
+}
+iframe.grayscale:hover {
+    filter: grayscale(0%) brightness(1);
+}
